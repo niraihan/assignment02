@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* shard style */
+  .flex{
+    display: flex;
+  }
+
+  .main-navbar , .banner{
+    max-width: 1180px;
+    margin: auto;
+  }
+
+  /* Nav bar style */
+  .main-navbar{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  .school-logo{
+    /* border: 1px solid rgb(255, 0, 0);
+    width: 120px;
+    height: 62px; */
+    
+  }
+  .nav-menu{
+
+  }
+  .nav-links{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+  .nav-link{
+    text-decoration: none;
+
+  }
+  .nav-link1{
+    color: rgb(254, 163, 1);
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .nav-link2{
+    color:rgb(1, 172, 253);
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .nav-link3{
+    color: rgb(5, 212, 223);
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .nav-link4{
+    color:rgb(93, 88, 239);
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .nav-btn{
+    padding: 10px 25px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(254, 163, 1);
+    border: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  /* Banner section style */
+  .banner{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .banner-contenet{
+    max-width: 600px;
+    margin-left: 50px;
+  }
+  .banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: rgb(17, 17, 17);
+  }
+  
+  #emp{
+    color: rgb(254, 163, 1);
+  }
+  #toward{
+    color: rgb(1, 172, 253);
+  }
+  .btn-one{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 15px;
+  }
+  header{
+    border-bottom: 2px dashed gray;
+  }
