@@ -32,6 +32,7 @@
   .nav-menu{
 
   }
+  
   .nav-links{
     display: flex;
     list-style: none;
@@ -380,6 +381,14 @@
     .nav-links{
       flex-direction: column;
     }
+    .main-navbar{
+      align-items: center;
+      justify-content: space-between;
+      /* margin: 0; */
+    }
+    .nav-menu{
+      display: none;
+    }
     
     .banner{
       flex-direction: column-reverse;
@@ -404,6 +413,9 @@
     header{
       border-bottom: none;
     }
+    .menu{
+      display: flex;
+    }
 
     .card-section{
       flex-direction: column;
@@ -418,15 +430,53 @@
       display: none;
     }
     .group-card{
-      grid-template-columns: 200px 200px;
-      
+      grid-template-columns: 173px 173px;
       justify-content: center;
       align-items: center;
+      margin-left: 30px;
     }
     .card-container1{
-      
+      /* width: 100%; */
     }
-
+    .h6{
+      margin: 0px;
+    }
+    .group-card-date1{
+      font-size: 0.56rem;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 47px;
+    width: 100px;
+    }
+    .group-card-date2{
+      font-size: 0.56rem;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 47px;
+    width: 100px;
+    }
+    .group-card-date3{
+      font-size: 0.56rem;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 47px;
+    width: 100px;
+    }
+    .group-card-date4{
+      font-size: 0.56rem;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 47px;
+    width: 100px;
+    }
     .main-footer{
       flex-direction: column;
       justify-content: center;
