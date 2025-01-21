@@ -338,6 +338,8 @@
   .main-footer{
     justify-content: space-evenly;
     background: rgb(1, 172, 253);
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .education{
     /* border: 2px solid blue; */
@@ -360,11 +362,16 @@
   .footer-links{
     list-style: none;
     /* border: 2px solid red;   */
+    gap: 15px ;
   }
-  .footer-link{
+  .footer-link {
     text-decoration: none;
     color: white;
     
+    
+  }
+  .keep{
+    color: white;
   }
  
 
@@ -483,6 +490,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
    
   }
