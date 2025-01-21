@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px red solid;
+    /* border: 2px red solid; */
   }
   .school-logo{
     /* border: 1px solid rgb(255, 0, 0);
@@ -78,7 +78,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgb(22, 245, 14);
+    /* border: 2px solid rgb(22, 245, 14); */
   }
   .banner-contenet{
     max-width: 600px;
@@ -206,16 +206,21 @@
     rgba(255, 255, 255, 0.3) 100%); */
   }
   .section-two-card {
-    display: flex;
-    /* justify-content: center; */
-    gap: 10px;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5px;
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr);
   }
   .group-card{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px ;
     border-radius: 16px;
-    border: 2px solid red;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid red; */
 }
   .card1{
     /* border: 2px solid red; */
@@ -326,28 +331,42 @@
     border-radius: 8px;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     
   }
   /* Footer style  */
   .main-footer{
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: rgb(1, 172, 253);
   }
   .education{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     max-width: 300px;
+    color: white;
+  }
+  .f-logo{
+    /* filter: grayscale(white 100%); */
+    background: whitesmoke;
+    height: 100%;
   }
   .logo-name{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 200px;
+    color: white;
+  }
+  .footer-menu{
+    color: white;
   }
   .footer-links{
     list-style: none;
+    /* border: 2px solid red;   */
   }
   .footer-link{
     text-decoration: none;
+    color: white;
+    
   }
-
+ 
 
 
   /* responsive section */
@@ -364,15 +383,16 @@
     
     .banner{
       flex-direction: column-reverse;
-      /* justify-content: center;
-      align-items: center; */
-      padding: 15px;
+      justify-content: center;
+      align-items: center;
+      /* padding: 15px; */
       
     }
     .kid-img{
       /* padding-left: 20px; */
       /* padding-right: 20px; */
       /* border: 2px solid red; */
+      width: 100%;
     }
     .banner-contenet{
       text-align: center;
@@ -398,10 +418,19 @@
       display: none;
     }
     .group-card{
-      grid-template-columns: repeat(2,1fr);
+      grid-template-columns: 200px 200px;
+      
+      justify-content: center;
+      align-items: center;
     }
     .card-container1{
       
+    }
+
+    .main-footer{
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
     }
    
   }
