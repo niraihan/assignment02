@@ -36,7 +36,7 @@
   .nav-links{
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 35px;
   }
   .nav-link{
     text-decoration: none;
@@ -353,16 +353,24 @@
   }
   .logo-name{
     /* border: 2px solid red; */
-    max-width: 200px;
+    /* max-width: 200px; */
     color: white;
   }
   .footer-menu{
     color: white;
+    display: flex;
+    flex-direction: column;
   }
   .footer-links{
     list-style: none;
     /* border: 2px solid red;   */
-    gap: 15px ;
+    gap: 15px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start; */
+    padding: 0%;
+    
+
   }
   .footer-link {
     text-decoration: none;
@@ -437,7 +445,8 @@
       display: none;
     }
     .group-card{
-      grid-template-columns: 173px 173px;
+      /* grid-template-columns: 173px 173px; */
+      grid-template-columns: repeat(2, 170px);
       justify-content: center;
       align-items: center;
       margin-left: 20px;
