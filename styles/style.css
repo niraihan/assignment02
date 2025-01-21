@@ -10,17 +10,18 @@
   .flex{
     display: flex;
   }
-
-  .main-navbar , .banner ,main {
-    max-width: 1180px;
+ 
+  .main-navbar , .banner ,main ,footer {
+    max-width: 1250px;
     margin: auto;
   }
 
   /* Nav bar style */
   .main-navbar{
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
+    justify-content: space-around;
+    align-items: center;
+    border: 2px red solid;
   }
   .school-logo{
     /* border: 1px solid rgb(255, 0, 0);
@@ -69,15 +70,19 @@
     font-weight: 600;
     font-size: 1.25rem;
   }
+  .hide{
+    display: none;
+  }
   /* Banner section style */
   .banner{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+    border: 2px solid rgb(22, 245, 14);
   }
   .banner-contenet{
     max-width: 600px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .banner-title{
     font-weight: 700;
@@ -91,6 +96,7 @@
   #toward{
     color: rgb(1, 172, 253);
   }
+  
   .btn-one{
     background-color: black;
     color: white;
@@ -106,6 +112,7 @@
   main{
     background-image: url(../assets/bg.png);
   }
+  
   .section-title{
     text-align: center;
     margin-top: 60px;
@@ -178,4 +185,223 @@
     border: none;
     border-radius: 50%;
     text-align: center;
+  }
+  .section-one{
+    border-bottom: 2px dashed gray ;
+    background-image: url(../assets/bg.png);
+  }
+
+  /* section two style */
+  
+  .section-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(236, 54, 9, 0.3);
+    background-image: url(../assets/bg.png);
+
+    /* background:linear-gradient(0.00deg, 
+    rgba(254, 163, 1, 0.3),
+    rgba(255, 255, 255, 0.3) 100%); */
+  }
+  .section-two-card {
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+  }
+  .group-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px ;
+    border-radius: 16px;
+    border: 2px solid red;
+}
+  .card1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   /* justify-content: center; */
+   background: white;
+   border-radius: 16px;
+}
+  
+  .card1-title{
+    font-size: 1.5rem;
+    margin: 10px 5px;
+  }
+
+  .card1-desscription{
+    color: rgb(102, 102, 102);
+  }
+  .date{
+    background-color: rgb(60, 216, 232);
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-left: 25px;
+    padding: 5px;
+    border-radius: 47px;
+    border: none;
+    max-width: 175px;
+
+    
+  }
+  .card-container1{
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+  /* justify-content: center; */
+    background-color: white;
+    border-radius: 16px;
+    
+
+  }
+  .h6{
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .group-card-date1{
+    background-color:rgb(149, 178, 38) ;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-left: 25px;
+    padding: 5px;
+    border-radius: 47px;
+    border: none;
+    max-width: 175px;
+  }
+  .group-card-date2{
+    background-color:rgb(93, 88, 240) ;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-left: 25px;
+    padding: 5px;
+    border-radius: 47px;
+    border: none;
+    max-width: 175px;
+  }
+  .group-card-date3{
+    background-color:rgb(238, 91, 6) ;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-left: 25px;
+    padding: 5px;
+    border-radius: 47px;
+    border: none;
+    max-width: 175px;
+  }
+  .group-card-date4{
+    background-color:rgb(62, 69, 163) ;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-left: 25px;
+    padding: 5px;
+    border-radius: 47px;
+    border: none;
+    max-width: 175px;
+  }
+  .view-btn{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+  /* Footer style  */
+  .main-footer{
+    justify-content: space-between;
+    background: rgb(1, 172, 253);
+  }
+  .education{
+    border: 2px solid blue;
+    max-width: 300px;
+  }
+  .logo-name{
+    border: 2px solid red;
+    max-width: 200px;
+  }
+  .footer-links{
+    list-style: none;
+  }
+  .footer-link{
+    text-decoration: none;
+  }
+
+
+
+  /* responsive section */
+  @media screen and (max-width:576px) {
+    .school-logo > h5{
+      display: none;
+    }
+    .nav-btn{
+      display: none;
+    }
+    .nav-links{
+      flex-direction: column;
+    }
+    
+    .banner{
+      flex-direction: column-reverse;
+      /* justify-content: center;
+      align-items: center; */
+      padding: 15px;
+      
+    }
+    .kid-img{
+      /* padding-left: 20px; */
+      /* padding-right: 20px; */
+      /* border: 2px solid red; */
+    }
+    .banner-contenet{
+      text-align: center;
+    }
+    .banner-contenet{
+      margin-left: 0px;
+    }
+   
+    header{
+      border-bottom: none;
+    }
+
+    .card-section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+    }
+    .next-btn{
+      display: none;
+    }
+    .card1{
+      display: none;
+    }
+    .group-card{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .card-container1{
+      
+    }
+   
   }
