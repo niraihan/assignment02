@@ -354,6 +354,14 @@
     border: 2px solid green;
     transition: 0.5s;
   }
+  .marquee{
+    color:red;
+    background-color: rgb(235, 160, 173);
+    border-radius: 5px;
+    width:100% ;
+    font-weight: 700;
+    
+  }
   /* Footer style  */
   .main-footer{
     justify-content: space-evenly;
