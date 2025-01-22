@@ -113,7 +113,7 @@
     transition: 0.5s;
   }
   header{
-    border-bottom: 2px dashed gray;
+    /* border-bottom: 2px dashed gray; */
   }
   /* main section style */
   main{
@@ -198,7 +198,7 @@
     transition: 0.5s;
   }
   .section-one{
-    border-bottom: 2px dashed gray ;
+    /* border-bottom: 1px dashed gray ; */
     background-image: url(../assets/bg.png);
   }
 
