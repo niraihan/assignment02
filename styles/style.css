@@ -451,6 +451,9 @@
       display: flex;
     
     }
+    .section-one{
+      border-bottom: none;
+    }
 
     .card-section{
       flex-direction: column;
