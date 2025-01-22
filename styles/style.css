@@ -117,7 +117,7 @@
   }
   /* main section style */
   main{
-    background-image: url(../assets/bg.png);
+    background-image: url("../assets/bg.png");
   }
   
   .section-title{
@@ -199,7 +199,7 @@
   }
   .section-one{
     /* border-bottom: 1px dashed gray ; */
-    background-image: url(../assets/bg.png);
+    background-image: url("../assets/bg.png");
   }
 
   /* section two style */
