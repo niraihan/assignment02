@@ -428,7 +428,7 @@
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
-      padding: 15px;
+      padding: 30px 20px 20px 20px;
       
     }
     .kid-img{
@@ -526,6 +526,9 @@
       padding-bottom: 40px; */
       padding: 40px 10px 40px 20px;
       
+    }
+    .footer-links{
+      gap: 8px;
     }
    
   }
